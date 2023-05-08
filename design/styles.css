@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --Cyan: (hsl(178, 100%, 50%));
+  --Soft-blue: (hsl(215, 51%, 70%));
+  --color: (hsl(228, 45%, 44%));
+  --main-BG: (hsl(217, 54%, 11%));
+  --card-BG: (hsl(216, 50%, 16%));
+  --line: (hsl(215, 32%, 27%));
+  --White: (hsl(0, 0%, 100%));
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-height: 100vh;
+}
+
+.card-box {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: hsl(216, 50%, 16%);
+  max-width: 340px;
+  border-radius: 10px;
+}
+
+.image_eth {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-top h2 {
+  padding-top: 20px;
+  padding: 25px 0px 15px 0px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-top h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card-mid {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 25px 0px;
+}
+
+.card-mid p {
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-info {
+  display: flex;
+  padding-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  padding-top: 25px;
+  gap: 10px;
+}
+
+.price p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.clock {
+  display: flex;
+  margin-top: 21px;
+  gap: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.clock p {
+  font-weight: 400;
+}
+
+.clock img {
+  width: 20px;
+  height: 20px;
+}
+
+.line {
+  border: 0.2px solid hsl(215, 32%, 27%);
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+  gap: 20px;
+}
+
+.card-bottom img {
+  height: 35px;
+  width: 35px;
+  padding: 1px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card-bottom p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.card-bottom span {
+  color: white;
+}
+
+.card-bottom span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 200;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
