@@ -41,6 +41,7 @@ body {
   width: 100%;
   border-radius: 10px;
   cursor: pointer;
+  
 }
 
 .card-top h2 {
@@ -52,6 +53,7 @@ body {
 .card-top h2:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+  
 }
 
 .card-mid {
